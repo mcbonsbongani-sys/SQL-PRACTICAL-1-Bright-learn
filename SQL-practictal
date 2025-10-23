@@ -1,0 +1,10 @@
+SELECT*
+FROM PRACTICAL1.DATASET.RETAIL_SALES;
+
+SELECT transaction_id,
+date,
+customer_id
+FROM practical1.dataset.retail_sales;
+
+SELECT DISTINCT product_category
+FROM practical1.dataset.retail_sales;
